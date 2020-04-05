@@ -146,7 +146,7 @@ In ``templates/silhouette/bootstrap/fields/checkbox_input_field.html``, extend y
 
         {% extends "silhouette/bootstrap/fields/field.html" %}
 
-        {%load silhouette_tags %}
+        {% load silhouette_tags %}
 
         {% block label %}
             <!-- Do not render the label here -->
